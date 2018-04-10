@@ -21,7 +21,7 @@ position_storage->addComponent(entity);
 
 ### Changing data in the components
 ```cpp
-auto * pos = position_storage->getComponent(ent);
+auto * pos = position_storage->getComponent(entity);
 
 if (pos != nullptr) {
   pos->x += 25.0f;
